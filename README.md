@@ -20,7 +20,7 @@ World total data with graph analysis:-
 
 country-wise total data:-
 
-![country wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/country%wise%201.png)
+![country wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/country%20wise.png)
 
 Perticular country data with graph analysis:-
 
