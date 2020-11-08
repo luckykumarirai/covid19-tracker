@@ -1,0 +1,57 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<center>
+<br><br>
+  <h2>Country wise data</h2><br>
+  <div class="container table-responsive">
+    <table class="table" id="country-table">
+      <thead class="table-dark">
+        <tr>
+          <th>s.no</th>
+          <th>Country</th>
+          <th>Cases</th>
+          <th>Today Cases</th>
+          <th>Deaths</th>
+          <th>Today Deaths</th>
+          <th>Recovered</th>
+          <th>Active</th>
+          <th>Critical</th>
+          <th>Cases Per One Million</th>
+          <th>deaths Per One Million</th>
+          <th>Total Tests</th>
+          <th>Tests PerOne Million</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% set ind = 0 %}
+      {% for item in world_data %}
+      {% if ind > 0 %}
+        <tr>
+          <td>{{ ind }}</td>
+          <td><a href='/country/{{ item.country }}'>{{ item.country }}</a></td>
+          <td>{{ item.cases }}</td>
+          <td>{{ item.todayCases }}</td>
+          <td>{{ item.deaths }}</td>
+          <td>{{ item.todayDeaths }}</td> 
+          <td>{{ item.recovered }}</td>
+          <td>{{ item.active }}</td> 
+          <td>{{ item.critical }}</td>
+          <td>{{ item.casesPerOneMillion }}</td> 
+          <td>{{ item.deathsPerOneMillion }}</td>
+          <td>{{ item.totalTests }}</td>
+          <td>{{ item.testsPerOneMillion }}</td> 
+        </tr>
+      {% endif %}
+      {% set ind=ind+1 %}
+      {% endfor %}
+      </tbody>
+    </table>
+    <script>
+      $(document).ready(function() {
+        $('#country-table').DataTable();
+      });
+    </script>
+  </div>
+</center>
+{% endblock %}
