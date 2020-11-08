@@ -14,24 +14,24 @@ coronavirus live updates
 
 World total data with graph analysis:-
 
-![Home Page](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-52-43.png)
+![World data](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/world%20data%201.png)
 
-![Home page ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-52-54.png)
+![World data](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/world%20data%202.png)
 
 country-wise total data:-
 
-![country wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-53-18.png)
+![country wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/country%wise%201.png)
 
 Perticular country data with graph analysis:-
 
-![perticular country: ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-53-46.png)
+![perticular country](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/india%20data%201.png)
 
-![perticular country ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-53-56.png)
+![perticular country](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/india%20data%202.png)
 
 State wise total data:-
 
-![State wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-54-05.png)
+![State wise: ](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/indian%20statewise.png)
 
 District wise total data:-
 
-![District wise ](https://github.com/pankajkumarbij/covid19-tracker/blob/master/screenshots/Screenshot%20from%202020-08-19%2011-54-18.png)
+![District wise ](https://github.com/pankajkumarbij/covid19-tracker/blob/main/screenshots/indian%20state%20district%20wise.png)
